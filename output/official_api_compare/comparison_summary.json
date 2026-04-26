@@ -1,0 +1,1368 @@
+{
+  "events": {
+    "name": "events",
+    "official_count": 7488,
+    "local_count": 7309,
+    "common_count": 7287,
+    "only_official_count": 201,
+    "only_local_count": 22,
+    "only_official_first20": [
+      2116,
+      2117,
+      2118,
+      2119,
+      2120,
+      2121,
+      2122,
+      2123,
+      2124,
+      2125,
+      2126,
+      2127,
+      2128,
+      2129,
+      2130,
+      2131,
+      2132,
+      2133,
+      2134,
+      2135
+    ],
+    "only_local_first20": [
+      3608,
+      3611,
+      3612,
+      3613,
+      3614,
+      3615,
+      3616,
+      3617,
+      3618,
+      3622,
+      3624,
+      3626,
+      3627,
+      3629,
+      3630,
+      3634,
+      3635,
+      3636,
+      3637,
+      3638
+    ]
+  },
+  "stations": {
+    "name": "stations",
+    "official_count": 16259,
+    "local_count": 13398,
+    "common_count": 13398,
+    "only_official_count": 2861,
+    "only_local_count": 0,
+    "only_official_first20": [
+      4326,
+      4349,
+      4812,
+      5568,
+      5595,
+      5696,
+      5913,
+      6014,
+      6083,
+      6096,
+      6099,
+      6102,
+      6104,
+      6120,
+      6126,
+      6128,
+      6138,
+      6266,
+      6267,
+      6268
+    ],
+    "only_local_first20": []
+  },
+  "motions": {
+    "name": "motions",
+    "official_count": 191723,
+    "local_count": 175244,
+    "common_count": 175191,
+    "only_official_count": 16532,
+    "only_local_count": 53,
+    "only_official_first20": [
+      22272,
+      24396,
+      32741,
+      34160,
+      36048,
+      36133,
+      36391,
+      36620,
+      37028,
+      37578,
+      38008,
+      38169,
+      38709,
+      40066,
+      40067,
+      40068,
+      40069,
+      40070,
+      40071,
+      40072
+    ],
+    "only_local_first20": [
+      144297,
+      144306,
+      144312,
+      144313,
+      144317,
+      144318,
+      144323,
+      144324,
+      144332,
+      144338,
+      144339,
+      144341,
+      144344,
+      144345,
+      144377,
+      144379,
+      144380,
+      144381,
+      144382,
+      144392
+    ]
+  },
+  "event_summary": {
+    "only_official_by_country": [
+      [
+        "United States of America",
+        135
+      ],
+      [
+        "Canada",
+        54
+      ],
+      [
+        "Mexico",
+        4
+      ],
+      [
+        "Cuba",
+        2
+      ],
+      [
+        "Greece",
+        2
+      ],
+      [
+        "Italy",
+        2
+      ],
+      [
+        "India",
+        1
+      ],
+      [
+        "Uzbekistan",
+        1
+      ]
+    ],
+    "only_official_by_event_type_id": [
+      [
+        "7",
+        147
+      ],
+      [
+        "5",
+        50
+      ],
+      [
+        "1",
+        3
+      ],
+      [
+        "6",
+        1
+      ]
+    ]
+  },
+  "station_summary": {
+    "only_official_by_network_id": [
+      [
+        "21",
+        850
+      ],
+      [
+        "83",
+        498
+      ],
+      [
+        "36",
+        205
+      ],
+      [
+        "90",
+        152
+      ],
+      [
+        "47",
+        84
+      ],
+      [
+        "10",
+        82
+      ],
+      [
+        "24",
+        68
+      ],
+      [
+        "44",
+        58
+      ],
+      [
+        "111",
+        47
+      ],
+      [
+        "92",
+        45
+      ],
+      [
+        "49",
+        35
+      ],
+      [
+        "68",
+        35
+      ],
+      [
+        "117",
+        34
+      ],
+      [
+        "71",
+        32
+      ],
+      [
+        "58",
+        30
+      ],
+      [
+        "62",
+        27
+      ],
+      [
+        "113",
+        26
+      ],
+      [
+        "85",
+        26
+      ],
+      [
+        "73",
+        25
+      ],
+      [
+        "53",
+        24
+      ],
+      [
+        "72",
+        24
+      ],
+      [
+        "120",
+        23
+      ],
+      [
+        "50",
+        23
+      ],
+      [
+        "87",
+        23
+      ],
+      [
+        "93",
+        21
+      ],
+      [
+        "57",
+        19
+      ],
+      [
+        "60",
+        19
+      ],
+      [
+        "94",
+        19
+      ],
+      [
+        "103",
+        18
+      ],
+      [
+        "46",
+        17
+      ]
+    ],
+    "only_official_with_site_id": 2861
+  },
+  "motion_summary": {
+    "only_official_by_event_status": [
+      [
+        "event_official_only",
+        16434
+      ],
+      [
+        "event_in_local",
+        98
+      ]
+    ],
+    "only_official_by_station_status": [
+      [
+        "station_official_only",
+        15809
+      ],
+      [
+        "station_in_local",
+        723
+      ]
+    ],
+    "only_official_by_event_type": [
+      [
+        "Stable Continental",
+        9063
+      ],
+      [
+        "Induced",
+        7369
+      ],
+      [
+        "Shallow Crustal",
+        100
+      ]
+    ],
+    "only_official_by_event_country": [
+      [
+        "United States of America",
+        14537
+      ],
+      [
+        "Canada",
+        1965
+      ],
+      [
+        "Mexico",
+        17
+      ],
+      [
+        "Cuba",
+        10
+      ],
+      [
+        "Italy",
+        2
+      ],
+      [
+        "Uzbekistan",
+        1
+      ]
+    ],
+    "only_official_by_station_network": [
+      [
+        "TA / USArray Transportable Array (EarthScope_TA)",
+        6094
+      ],
+      [
+        "CN / Canadian National Seismograph Network (CNSN)",
+        1399
+      ],
+      [
+        "US / United States National Seismic Network (USNSN)",
+        1274
+      ],
+      [
+        "NM / Cooperative New Madrid Seismic Network ()",
+        1231
+      ],
+      [
+        "GS / US Geological Survey Networks",
+        1097
+      ],
+      [
+        "N4 / Central and Eastern US Network",
+        971
+      ],
+      [
+        "NX / Nanometrics Research Network",
+        740
+      ],
+      [
+        "LD / Lamont-Doherty Cooperative Seismographic Network (LCSN)",
+        590
+      ],
+      [
+        "9L / Stanford Geophysics Donor Data Collection",
+        512
+      ],
+      [
+        "IU / Global Seismograph Network - IRIS/USGS (GSN)",
+        377
+      ],
+      [
+        "AG / Arkansas Seismic Network ()",
+        351
+      ],
+      [
+        "OK / Oklahoma Seismic Network ()",
+        272
+      ],
+      [
+        "ZL / Northern Embayment Lithospheric Experiment",
+        237
+      ],
+      [
+        "NE / New England Seismic Network (NESN)",
+        165
+      ],
+      [
+        "PE / Pennsylvania State Seismic Network (PASEIS)",
+        100
+      ],
+      [
+        "ET / CERI Southern Appalachian Seismic Network ()",
+        70
+      ],
+      [
+        "CO / South Carolina Seismic Network (SCSN)",
+        53
+      ],
+      [
+        "XB / Sweetwater Array",
+        51
+      ],
+      [
+        "O2 / Oklahoma Consolidated Temporary Seismic Networks",
+        49
+      ],
+      [
+        "SP / South Carolina Earth Physics Project (SCEPP)",
+        47
+      ],
+      [
+        "NQ / NetQuakes",
+        45
+      ],
+      [
+        "WU / The Southern Ontario Seismic Network ()",
+        44
+      ],
+      [
+        "XO / Ozark Illinois Indiana Kentucky (OIINK) Flexible Array Experiment (OIINK)",
+        38
+      ],
+      [
+        "6E / Wabash Valley Seismic Zone",
+        35
+      ],
+      [
+        "XR / Seismicity near the Nemaha fault in northern Oklahoma",
+        34
+      ],
+      [
+        "XR / The Florida to Edmonton Broadband Experiment (FLED)",
+        34
+      ],
+      [
+        "XF / Laramie Telemetered Broad-band Array (Laramie)",
+        30
+      ],
+      [
+        "YB / Deep Fault Structure Beneath the Mojave from a High Density, Passive Seismic Profile (Mojave Experiment)",
+        30
+      ],
+      [
+        "ZW / North Texas Earthquake Study: Azle and Irving/Dallas",
+        29
+      ],
+      [
+        "OH / Ohio Seismic Network",
+        28
+      ],
+      [
+        "PO / Portable Observatories for Lithospheric Analysis and Research Investigating Seismicity (POLARIS)",
+        27
+      ],
+      [
+        "TX / Texas Seismological Network",
+        27
+      ],
+      [
+        "X8 / Deep Structure of Three Continental Sutures in Eastern North America",
+        26
+      ],
+      [
+        "NC / USGS Northern California Network (NCSN)",
+        24
+      ],
+      [
+        "IW / Intermountain West Seismic Network (Wyoming Network)",
+        22
+      ],
+      [
+        "SE / Southeastern Appalachian Cooperative Seismic Network ()",
+        22
+      ],
+      [
+        "YX / Raton Basin UNM Broadband Network",
+        20
+      ],
+      [
+        "5H / Central Virginia and South Carolina seismic monitoring experiment",
+        18
+      ],
+      [
+        "XM / Colorado Plateau/Rio Grand Rift/Great Plains Seismic Transect (RISTRA)",
+        18
+      ],
+      [
+        "UU / University of Utah Regional Seismic Network (Utah Network)",
+        17
+      ],
+      [
+        "X4 / Texas Gulf Coastal Plain, USA",
+        17
+      ],
+      [
+        "IM / International Miscellaneous Stations",
+        15
+      ],
+      [
+        "7A / Mid-Atlantic Geophysical Integrative Collaboration",
+        14
+      ],
+      [
+        "GM / U.S. Geological Survey Networks",
+        13
+      ],
+      [
+        "XC / Geodynamics of the Yellowstone Hotspot from Seismic and GPS imaging (Yellowstone Hot Spot)",
+        13
+      ],
+      [
+        "NN / Nevada Seismic Network",
+        12
+      ],
+      [
+        "NP / United States National Strong-Motion Network (NSMP)",
+        12
+      ],
+      [
+        "7D / Lake-induced earthquakes in Lake Erie",
+        11
+      ],
+      [
+        "II / Global Seismograph Network - IRIS/IDA (GSN)",
+        11
+      ],
+      [
+        "XP / Seismic Experiment for Imaging Structure beneath Connecticut",
+        10
+      ],
+      [
+        "C8 / Canadian Seismic Research Network",
+        9
+      ],
+      [
+        "KY / Kentucky Seismic and Strong Motion Network",
+        9
+      ],
+      [
+        "AE / Arizona Broadband Seismic Network",
+        8
+      ],
+      [
+        "C0 / Colorado Geological Survey Seismic Network",
+        8
+      ],
+      [
+        "YC / RAMP Virginia (RAMP Virginia)",
+        8
+      ],
+      [
+        "SC / New Mexico Tech Seismic Network ()",
+        7
+      ],
+      [
+        "Y9 / Rapid response for fairview aftershock in Oklahoma",
+        7
+      ],
+      [
+        "CI / Southern California Seismic Network (SCSN)",
+        6
+      ],
+      [
+        "MU / Miami University Seismic Network",
+        6
+      ],
+      [
+        "YN / San Jacinto Fault Zone Experiment (SJFZ)",
+        6
+      ],
+      [
+        "4T / Texas Seismological Network",
+        5
+      ],
+      [
+        "QC / Quake Catcher Network",
+        5
+      ],
+      [
+        "XI / Superior Province Rifting Earthscope Experiment",
+        5
+      ],
+      [
+        "XO / The Origins of Mantle Anisotropy beneath Eastern North America (Eastern NA)",
+        5
+      ],
+      [
+        "7Q / RAPID: Capturing aftershock sequence of 2019 Mw 6.4 Ridgecrest and 7.1 Ridgecrest earthquakes (RAPID Ridgecrest)",
+        4
+      ],
+      [
+        "AO / Arkansas Seismic Observatory ()",
+        4
+      ],
+      [
+        "HQ / Hydro Quebec Network (unofficial designation)",
+        4
+      ],
+      [
+        "WR / California Division of Water Resources",
+        4
+      ],
+      [
+        "XU / USGS NEHRP Proposal 2016-0180 - Greeley",
+        4
+      ],
+      [
+        "Z9 / Southeastern Suture of the Appalachian Margin Experiment (SESAME)",
+        4
+      ],
+      [
+        "4P / Carnegie Washington Backyard Network",
+        3
+      ],
+      [
+        "BK / Berkeley Digital Seismograph Network (BDSN)",
+        3
+      ],
+      [
+        "CE / California Strong Motion Instrumentation Program",
+        3
+      ],
+      [
+        "3E / Exploring Seismic Velocity of Sediments in the Mississippi Embayment",
+        2
+      ],
+      [
+        "5P / Structural health monitoring of rock arches and towers",
+        2
+      ],
+      [
+        "CW / Servicio Sismologico Nacional de Cuba",
+        2
+      ],
+      [
+        "CY / Cayman Islands",
+        2
+      ],
+      [
+        "MB / Montana Regional Seismic Network (MRSN)",
+        2
+      ],
+      [
+        "NW / Northwestern University Seismic Network",
+        2
+      ],
+      [
+        "XK / Teleseismic Studies in the Western Superior Transect, Canada (TWIST)",
+        2
+      ],
+      [
+        "Y8 / Detection and location of non-volcanic tremor in the New Madrid Seismic Zone (New Madrid)",
+        2
+      ],
+      [
+        "9A / East Texas Earthquake Monitoring",
+        1
+      ],
+      [
+        "E / Rete ENA",
+        1
+      ],
+      [
+        "EP / UTEP Seismic Network ()",
+        1
+      ],
+      [
+        "IT / Italian Strong Motion Network (RAN)",
+        1
+      ],
+      [
+        "LI / Laser Interferometer Gravitational-Wave Experiment (LIGO)",
+        1
+      ],
+      [
+        "MX / Mexican National Seismic Network",
+        1
+      ],
+      [
+        "RU / USSR Strong Motion Station (unofficial designation)",
+        1
+      ],
+      [
+        "SS / SINGLE STATION",
+        1
+      ],
+      [
+        "WY / Yellowstone National Park Seismograph Network",
+        1
+      ],
+      [
+        "XD / Passive seismic study of a magma-dominated rift: the Salton Trough (Salton Trough BB/Stanford)",
+        1
+      ],
+      [
+        "Y6 / QM-III-UK",
+        1
+      ],
+      [
+        "YU / Cornell University Earth Source Heat seismic network (Cornell_ESH (2019-2024))",
+        1
+      ],
+      [
+        "ZP / Seismic Investigation of South Central Oklahoma",
+        1
+      ]
+    ],
+    "only_official_top_events": [
+      [
+        "2202: Mineral_2011-08-23",
+        555
+      ],
+      [
+        "2174: ValDesBois_2010-06-23",
+        535
+      ],
+      [
+        "2204: Sparks_2011-11-05",
+        530
+      ],
+      [
+        "2194: Greenbrier_2011-02-28",
+        528
+      ],
+      [
+        "2205: Sparks_2011-11-06",
+        510
+      ],
+      [
+        "2195: Sullivan_2011-06-07",
+        472
+      ],
+      [
+        "2203: Mineral_2011-08-25",
+        443
+      ],
+      [
+        "2181: Guy_2010-10-15",
+        442
+      ],
+      [
+        "2180: Slaughterville_2010-10-13",
+        440
+      ],
+      [
+        "2190: Guy_2010-11-20",
+        422
+      ],
+      [
+        "2189: Greentown_2010-12-30",
+        415
+      ],
+      [
+        "2206: Comal_2011-10-20",
+        415
+      ],
+      [
+        "2170: Jones_2010-01-15",
+        298
+      ],
+      [
+        "2171: Lincoln_2010-02-27",
+        297
+      ],
+      [
+        "2343: 9 km SSE of Sparks, Oklahoma",
+        248
+      ],
+      [
+        "2286: 5 km S of Galesburg, Michigan",
+        208
+      ],
+      [
+        "2254: 7 km S of Williamsville, Missouri",
+        199
+      ],
+      [
+        "2253: 20 km NNE of Shawville, Canada",
+        178
+      ],
+      [
+        "2187: Arcadia_2010-11-24",
+        176
+      ],
+      [
+        "2261: 3 km NNE of Little Creek, Delaware",
+        167
+      ],
+      [
+        "2258: 4 km SE of Sparta, North Carolina",
+        163
+      ],
+      [
+        "2348: 3 km NE of Timpson, Texas",
+        162
+      ],
+      [
+        "2188: BethelAcres_2010-12-12",
+        158
+      ],
+      [
+        "2332: 2 km S of Marshall, Oklahoma",
+        154
+      ],
+      [
+        "2304: 6 km W of Langston, Oklahoma",
+        145
+      ],
+      [
+        "2336: 7 km NNE of Lake Aluma, Oklahoma",
+        140
+      ],
+      [
+        "2333: 3 km SSW of Marshall, Oklahoma",
+        137
+      ],
+      [
+        "3580: 2024 Tewksbury, New Jersey Earthquake",
+        137
+      ],
+      [
+        "2325: 4 km S of Cushing, Oklahoma",
+        133
+      ],
+      [
+        "2160: MtCarmel_2008-04-18",
+        132
+      ],
+      [
+        "2312: 17 km SE of Waynoka, Oklahoma",
+        132
+      ],
+      [
+        "2292: 18 km SE of Waynoka, Oklahoma",
+        130
+      ],
+      [
+        "2271: 6 km ESE of Covington, Oklahoma",
+        129
+      ],
+      [
+        "2172: Whiting_2010-03-02",
+        128
+      ],
+      [
+        "2269: 6 km SE of Marshall, Oklahoma",
+        125
+      ],
+      [
+        "2305: 7 km WSW of Langston, Oklahoma",
+        125
+      ],
+      [
+        "2273: 12 km ENE of Nash, Oklahoma",
+        122
+      ],
+      [
+        "2320: 9 km E of Nescatunga, Oklahoma",
+        121
+      ],
+      [
+        "2323: 7 km SW of Danville, Kansas",
+        121
+      ],
+      [
+        "2306: 4 km NNE of Crescent, Oklahoma",
+        118
+      ],
+      [
+        "2327: 3 km SE of Perry, Oklahoma",
+        118
+      ],
+      [
+        "2342: 8 km NE of Cherokee, Oklahoma",
+        117
+      ],
+      [
+        "2321: 12 km SSW of Guthrie, Oklahoma",
+        113
+      ],
+      [
+        "2300: 6 km WNW of Medford, Oklahoma",
+        112
+      ],
+      [
+        "2324: 4 km S of Cushing, Oklahoma",
+        112
+      ],
+      [
+        "2270: 6 km NNW of Sun City, Kansas",
+        111
+      ],
+      [
+        "2328: 8 km NNW of Hunter, Oklahoma",
+        110
+      ],
+      [
+        "2337: 7 km NE of Lake Aluma, Oklahoma",
+        109
+      ],
+      [
+        "2311: 6 km S of Guthrie, Oklahoma",
+        108
+      ],
+      [
+        "2290: 3 km WNW of Cushing, Oklahoma",
+        106
+      ]
+    ],
+    "only_official_top_stations": [
+      [
+        "6585: CCM",
+        83
+      ],
+      [
+        "6719: UALR",
+        78
+      ],
+      [
+        "7466: KSU1",
+        74
+      ],
+      [
+        "6375: FCAR",
+        68
+      ],
+      [
+        "7499: WMOK",
+        68
+      ],
+      [
+        "7463: JCT",
+        64
+      ],
+      [
+        "6376: HHAR",
+        63
+      ],
+      [
+        "6692: MGMO",
+        62
+      ],
+      [
+        "6714: SIUC",
+        60
+      ],
+      [
+        "7831: OK01",
+        60
+      ],
+      [
+        "7834: OK04",
+        57
+      ],
+      [
+        "6702: PBMO",
+        56
+      ],
+      [
+        "7439: CBKS",
+        56
+      ],
+      [
+        "7477: MIAR",
+        56
+      ],
+      [
+        "7833: OK03",
+        56
+      ],
+      [
+        "7836: OK06",
+        56
+      ],
+      [
+        "7835: OK05",
+        55
+      ],
+      [
+        "7838: OK08",
+        55
+      ],
+      [
+        "7839: OK10",
+        55
+      ],
+      [
+        "6377: LCAR",
+        54
+      ],
+      [
+        "6715: SLM",
+        54
+      ],
+      [
+        "6590: SSPA",
+        52
+      ],
+      [
+        "7837: OK07",
+        52
+      ],
+      [
+        "8366: KAN13",
+        52
+      ],
+      [
+        "7843: WHAR",
+        51
+      ],
+      [
+        "6593: WVT",
+        50
+      ],
+      [
+        "6960: ABTX",
+        50
+      ],
+      [
+        "7432: AMTX",
+        50
+      ],
+      [
+        "7489: OXF",
+        50
+      ],
+      [
+        "8368: OK025",
+        50
+      ],
+      [
+        "6592: WCI",
+        49
+      ],
+      [
+        "6660: BLO",
+        49
+      ],
+      [
+        "7351: WHTX",
+        49
+      ],
+      [
+        "7289: TUL1",
+        48
+      ],
+      [
+        "8363: KAN10",
+        47
+      ],
+      [
+        "8365: KAN12",
+        47
+      ],
+      [
+        "8372: 237B",
+        47
+      ],
+      [
+        "6508: SADO",
+        46
+      ],
+      [
+        "6630: PAL",
+        45
+      ],
+      [
+        "6721: UTMT",
+        45
+      ],
+      [
+        "7974: L34B",
+        45
+      ],
+      [
+        "6379: WLAR",
+        44
+      ],
+      [
+        "6973: BGNE",
+        44
+      ],
+      [
+        "8297: N33B",
+        44
+      ],
+      [
+        "8361: KAN06",
+        44
+      ],
+      [
+        "8362: KAN08",
+        44
+      ],
+      [
+        "6720: USIN",
+        43
+      ],
+      [
+        "8369: OK029",
+        43
+      ],
+      [
+        "6575: OK009",
+        42
+      ],
+      [
+        "6893: 435B",
+        42
+      ]
+    ],
+    "only_local_by_event_id": [
+      [
+        "3637",
+        6
+      ],
+      [
+        "3624",
+        5
+      ],
+      [
+        "3635",
+        5
+      ],
+      [
+        "3626",
+        4
+      ],
+      [
+        "3636",
+        4
+      ],
+      [
+        "3640",
+        4
+      ],
+      [
+        "3617",
+        3
+      ],
+      [
+        "3634",
+        3
+      ],
+      [
+        "3638",
+        3
+      ],
+      [
+        "3612",
+        2
+      ],
+      [
+        "3613",
+        2
+      ],
+      [
+        "3614",
+        2
+      ],
+      [
+        "3616",
+        2
+      ],
+      [
+        "3639",
+        2
+      ],
+      [
+        "3608",
+        1
+      ],
+      [
+        "3611",
+        1
+      ],
+      [
+        "3615",
+        1
+      ],
+      [
+        "3627",
+        1
+      ],
+      [
+        "3629",
+        1
+      ],
+      [
+        "3630",
+        1
+      ]
+    ],
+    "only_local_by_station_id": [
+      [
+        "12204",
+        5
+      ],
+      [
+        "9826",
+        5
+      ],
+      [
+        "12214",
+        4
+      ],
+      [
+        "12216",
+        4
+      ],
+      [
+        "12194",
+        3
+      ],
+      [
+        "12195",
+        3
+      ],
+      [
+        "9828",
+        3
+      ],
+      [
+        "12215",
+        2
+      ],
+      [
+        "12233",
+        2
+      ],
+      [
+        "10164",
+        1
+      ],
+      [
+        "10166",
+        1
+      ],
+      [
+        "10167",
+        1
+      ],
+      [
+        "10481",
+        1
+      ],
+      [
+        "10482",
+        1
+      ],
+      [
+        "10483",
+        1
+      ],
+      [
+        "10484",
+        1
+      ],
+      [
+        "10485",
+        1
+      ],
+      [
+        "10507",
+        1
+      ],
+      [
+        "12190",
+        1
+      ],
+      [
+        "12192",
+        1
+      ],
+      [
+        "12198",
+        1
+      ],
+      [
+        "12208",
+        1
+      ],
+      [
+        "12210",
+        1
+      ],
+      [
+        "12211",
+        1
+      ],
+      [
+        "12213",
+        1
+      ],
+      [
+        "12217",
+        1
+      ],
+      [
+        "12218",
+        1
+      ],
+      [
+        "12223",
+        1
+      ],
+      [
+        "12241",
+        1
+      ],
+      [
+        "9823",
+        1
+      ],
+      [
+        "9961",
+        1
+      ]
+    ]
+  }
+}

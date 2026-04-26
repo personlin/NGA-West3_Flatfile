@@ -1,0 +1,207 @@
+network_id,network_code,network_name,network_type,start_date,end_date,operation_org,doi,network_citation_id
+0,,Unknown,,0001-01-03,9999-01-01,,,1
+1,5A,"Basin & Range, Pleasant Valley Faulting, Crustal-Scale Geometry of Active Continental Normal Faults (B&R Normal Faults)",temporary,2010-01-01,2012-12-31,Oregon State University (OSU USA),https://doi.org/10.7914/SN/5A_2010,1061
+2,7D,Cascadia Initiative Community Experiment - OBS Component (CIET1),temporary,2011-01-01,2017-12-31,IRIS HQ (DC),https://doi.org/10.7914/SN/7D_2011,1062
+3,8E,Mammoth Mountain Broadband Experiment,temporary,2011-01-01,2013-12-31,USGS Menlo Park,,1
+4,AZ,ANZA Regional Network (ANZA),permanent,1982-01-01,9999-01-01,UC San Diego,https://doi.org/10.7914/SN/AZ,1063
+5,BK,Berkeley Digital Seismograph Network (BDSN),permanent,1980-01-01,9999-01-01,UC Berkeley,https://doi.org/10.7932/BDSN,1064
+6,CE,California Strong Motion Instrumentation Program,permanent,1900-01-01,9999-01-01,California Division of Mines and Geology (CDMG),,1
+7,CI,Southern California Seismic Network (SCSN),permanent,1926-01-01,9999-01-01,California Institute of Technology and United States Geological Survey Pasadena (Caltech and USGS),https://doi.org/10.7914/SN/CI,1065
+8,FA,UCLA Seismic Network (UCLA),permanent,2003-01-01,9999-01-01,UC Los Angeles (UCLA),,1
+9,GM,U.S. Geological Survey Networks,permanent,2016-01-01,9999-01-01,U.S. Geological Survey,https://doi.org/10.7914/SN/GM,1066
+10,GS,US Geological Survey Networks,permanent,1980-01-01,9999-01-01,Albuquerque Seismological Laboratory (ASL)/USGS,https://doi.org/10.7914/SN/GS,1067
+11,LB,Leo Brady Network (LB),permanent,1994-01-01,9999-01-01,Sandia National Laboratories,,1
+12,NC,USGS Northern California Network (NCSN),permanent,1967-01-01,9999-01-01,USGS Menlo Park,https://doi.org/10.7914/SN/NC,1068
+13,NN,Nevada Seismic Network,permanent,1971-01-01,9999-01-01,"University of Nevada, Reno (UNR) ",https://doi.org/10.7914/SN/NN,1069
+14,NP,United States National Strong-Motion Network (NSMP),permanent,1931-01-01,9999-01-01,U.S. Geological Survey,https://doi.org/10.7914/SN/NP,1070
+15,PB,Plate Boundary Observatory Borehole Seismic Network (PBO),permanent,2004-01-01,9999-01-01,UNAVCO,,1
+16,PG,"Central Coast Seismic Network, PG&E",permanent,1987-01-01,9999-01-01,Pacific Gas and Electric (PG&E),,1
+17,RE,US Bureau of Reclamation Seismic Networks,permanent,1985-01-01,9999-01-01,U.S. State Department,,1
+18,SB,UC Santa Barbara Engineering Seismology Network,permanent,1989-01-01,9999-01-01,UC Santa Barbara,https://doi.org/10.7914/SN/SB,1071
+19,SF,San Andreas Fault Observatory at Depth (SAFOD),permanent,2002-01-01,9999-01-01,Stanford University,,1
+20,SN,Southern Great Basin Network,permanent,1980-01-01,9999-01-01,"University of Nevada, Reno (UNR) ",https://doi.org/10.7914/SN/SN,1072
+21,TA,USArray Transportable Array (EarthScope_TA),permanent,2003-01-01,9999-01-01,IRIS Transportable Array (IRIS_TA),https://doi.org/10.7914/SN/TA,1073
+22,TO,"Tectonic Observatory - MASE, VEOX , PeruSE, CCSE (MASE, VEOX, PERUSE, CCSE)",permanent,2004-01-01,9999-01-01,California Institute of Technology (Caltech),https://doi.org/10.7909/C3RN35SP,1074
+23,UO,Pacific Northwest Seismic Network - University of Oregon (PNSN-UO),permanent,1990-01-01,9999-01-01,University of Oregon,https://doi.org/10.7914/SN/UO,1075
+24,US,United States National Seismic Network (USNSN),permanent,1990-01-01,9999-01-01,Albuquerque Seismological Laboratory (ASL)/USGS,https://doi.org/10.7914/SN/US,1076
+25,UU,University of Utah Regional Seismic Network (Utah Network),permanent,1962-01-01,9999-01-01,University of Utah,https://doi.org/10.7914/SN/UU,1077
+26,UW,Pacific Northwest Seismic Network - University of Washington (PNSN),permanent,1963-01-01,9999-01-01,University of Washington,https://doi.org/10.7914/SN/UW,1078
+27,WR,California Division of Water Resources,permanent,1900-01-01,9999-01-01,California Division of Water Resources,,1
+28,Y3,"Wells, Nevada Aftershock Recording (RAMP NV)",temporary,2008-01-01,2008-12-31,New Mexico Tech,https://doi.org/10.7914/SN/Y3_2008,1079
+29,YN,San Jacinto Fault Zone Experiment (SJFZ),temporary,2010-01-01,2022-12-31,"University of California, San Diego (UCSD)",https://doi.org/10.7914/SN/YN_2010,1080
+30,YU,Northern California Delta (Delta),temporary,2006-01-01,2014-12-31,USGS Menlo Park,https://doi.org/10.7914/SN/YU_2006,1081
+31,Z5,"Seismicity, Structure and Dynamics of the Gorda Deformation Zone (Gorda)",temporary,2013-01-01,2015-12-31,Oregon State University (OSU USA),https://doi.org/10.7914/SN/Z5_2013,1082
+32,LA,Los Angeles Basin Seismic Network,permanent,1900-01-01,9999-01-01,University of Southern California (USC),,1
+33,CF,Red Acelerografica Nacional de la Comision Federal de Electricidad (CFE),permanent,2007-01-01,9999-01-01,Comision Federal de Electricidad (CFE),,1
+34,ZY,Portable Southern California Seismic Networks (Caltech),temporary,1990-01-01,2025-12-31,California Institute of Technology (Caltech),,1
+35,AG,Arkansas Seismic Network (),permanent,2009-01-01,9999-01-01,Arkansas Geological Survey/CERI,,1
+36,CN,Canadian National Seismograph Network (CNSN),permanent,1980-01-01,9999-01-01,Geological Survey of Canada,https://doi.org/10.7914/SN/CN,1524
+37,CO,South Carolina Seismic Network (SCSN),permanent,1987-01-01,9999-01-01,"University of South Carolina, Columbia",https://doi.org/10.7914/SN/CO,1523
+38,CU,Caribbean USGS Network (),permanent,2006-01-01,9999-01-01,Albuquerque Seismological Laboratory (ASL)/USGS,https://doi.org/10.7914/SN/CU,1522
+39,ET,CERI Southern Appalachian Seismic Network (),permanent,1982-01-01,9999-01-01,"CERI, University of Memphis",,1
+41,II,Global Seismograph Network - IRIS/IDA (GSN),permanent,1986-01-01,9999-01-01,"Scripts Institute of Oceanography, UC San Diego",https://doi.org/10.7914/SN/II,1521
+42,IU,Global Seismograph Network - IRIS/USGS (GSN),permanent,1988-01-01,9999-01-01,USGS Albuquerque Seismological Laboratory,https://doi.org/10.7914/SN/IU,1520
+43,IW,Intermountain West Seismic Network (Wyoming Network),permanent,2003-01-01,9999-01-01,"USGS/ANSS Golden, CO",https://doi.org/10.7914/SN/IW,1519
+44,LD,Lamont-Doherty Cooperative Seismographic Network (LCSN),permanent,1970-01-01,9999-01-01,Lamont-Doherty Earth Observatory of Columbia University,https://doi.org/10.7914/SN/LD,1518
+45,LI,Laser Interferometer Gravitational-Wave Experiment (LIGO),permanent,2000-01-01,9999-01-01,"Caltech/USGS, Southern California Seismic Network",https://doi.org/10.7914/SN/LI,1517
+46,NE,New England Seismic Network (NESN),permanent,1994-01-01,9999-01-01,"Weston Observatory, Boston College/MIT",https://doi.org/10.7914/SN/NE,1516
+47,NM,Cooperative New Madrid Seismic Network (),permanent,1980-01-01,9999-01-01,St. Louis University/ University of Memphis,,1
+49,PE,Pennsylvania State Seismic Network (PASEIS),permanent,2004-01-01,9999-01-01,Penn State University,https://doi.org/10.7914/SN/PE,1514
+50,PN,PEPP-Indiana (),permanent,1998-01-01,9999-01-01,Indiana University Bloomington (IU Bloomington),,1
+51,SC,New Mexico Tech Seismic Network (),permanent,1999-01-01,9999-01-01,"New Mexico Tech, Socorro",,1
+52,SE,Southeastern Appalachian Cooperative Seismic Network (),permanent,1999-01-01,9999-01-01,Virginia Tech,,1
+53,SP,South Carolina Earth Physics Project (SCEPP),temporary,2000-01-01,2005-12-31,"University of South Carolina, Columbia",https://doi.org/10.7914/SN/SP,1513
+57,XC,Geodynamics of the Yellowstone Hotspot from Seismic and GPS imaging (Yellowstone Hot Spot),temporary,2000-01-01,2002-12-31,IRIS Temporary Network,https://doi.org/10.7914/SN/XC_2000,1512
+58,XF,Laramie Telemetered Broad-band Array (Laramie),temporary,2000-01-01,2002-12-31,IRIS Temporary Network,https://doi.org/10.7914/SN/XF_2009,1511
+59,XK,"Teleseismic Studies in the Western Superior Transect, Canada (TWIST)",temporary,1997-01-01,1998-12-31,IRIS Temporary Network,https://doi.org/10.7914/SN/XK_1997,1510
+60,XM,Colorado Plateau/Rio Grand Rift/Great Plains Seismic Transect (RISTRA),temporary,1999-01-01,2002-12-31,IRIS Temporary Network,https://doi.org/10.7914/SN/XM_1999,1509
+61,XO,The Origins of Mantle Anisotropy beneath Eastern North America (Eastern NA),temporary,1997-01-01,2000-12-31,IRIS Temporary Network,https://doi.org/10.7914/SN/XO_1997,1508
+62,XR,The Florida to Edmonton Broadband Experiment (FLED),temporary,2001-01-01,2003-12-31,IRIS Temporary Network,https://doi.org/10.7914/SN/XR_2001,1506
+63,XR,Seismic Investigation of Edge Driven Convection Associated with the Rio Grande Rift. (SIEDCAR),temporary,2008-01-01,2012-12-31,IRIS Temporary Network,https://doi.org/10.7914/SN/XR_2008,1505
+64,Y8,Detection and location of non-volcanic tremor in the New Madrid Seismic Zone (New Madrid),temporary,2009-01-01,2012-12-31,IRIS Temporary Network,https://doi.org/10.7914/SN/Y8_2009,1504
+65,Z3,Mt.Carmel 2008 AFtershock Network (MTCARMEL),temporary,2008-01-01,2009-12-31,IRIS Temporary Network,,1
+66,Z9,Southeastern Suture of the Appalachian Margin Experiment (SESAME),temporary,2010-01-01,2015-12-31,IRIS Temporary Network,https://doi.org/10.7914/SN/Z9_2010,1502
+67,AO,Arkansas Seismic Observatory (),permanent,2011-01-01,9999-01-01,University of Arkansas at Little Rock,,1
+68,XO,Ozark Illinois Indiana Kentucky (OIINK) Flexible Array Experiment (OIINK),temporary,2011-01-01,2016-12-31,IRIS Temporary Network,https://doi.org/10.7914/SN/XO_2011,1507
+69,YC,RAMP Virginia (RAMP Virginia),temporary,2011-01-01,2013-12-31,IRIS Temporary Network,https://doi.org/10.7914/SN/YC_2011,1503
+70,EP,UTEP Seismic Network (),permanent,2009-01-01,9999-01-01,"University of Texas, El Paso",,1
+71,PO,Portable Observatories for Lithospheric Analysis and Research Investigating Seismicity (POLARIS),permanent,2000-01-01,9999-01-01,Geological Survey of Canada and Canadian Universities,,1
+72,OK,Oklahoma Seismic Network (),permanent,1978-01-01,9999-01-01,Oklahoma Geological Survey,https://doi.org/10.7914/SN/OK,1515
+73,WU,The Southern Ontario Seismic Network (),permanent,1991-01-01,9999-01-01,,,1
+74,HQ,Hydro Quebec Network (unofficial designation),permanent,1900-01-01,9999-01-01,Hydro Quebec,,1
+75,NQ,NetQuakes,permanent,1989-01-01,9999-01-01,U.S. Geological Survey,https://doi.org/10.7914/SN/NQ,1106
+76,QC,Quake Catcher Network,permanent,1900-01-01,9999-01-01,Stanford University,,1
+77,RU,USSR Strong Motion Station (unofficial designation),permanent,1989-01-01,9999-01-01,GSRAS,https://doi.org/10.7914/SN/RU,1107
+83,CJ,Community Seismic Network,permanent,2010-01-01,9999-01-01,California Institute of Technology (Caltech),,1
+84,9L,Stanford Geophysics Donor Data Collection,temporary,2013-01-01,2016-12-31,Stanford University,https://doi.org/10.7914/SN/9L_2013,1108
+85,NX,Nanometrics Research Network,permanent,2013-01-01,9999-01-01,Nanometrics Seismological Instruments,https://doi.org/10.7914/SN/NX,1109
+86,IM,International Miscellaneous Stations,permanent,1965-01-01,9999-01-01,,,1
+87,X8,Deep Structure of Three Continental Sutures in Eastern North America,temporary,2012-01-01,2017-12-31,Rutgers University,https://doi.org/10.7914/SN/X8_2012,1110
+88,XI,Superior Province Rifting Earthscope Experiment,temporary,2011-01-01,2013-12-31,Northwestern University,https://doi.org/10.7914/SN/XI_2011,1111
+89,KY,Kentucky Seismic and Strong Motion Network,permanent,1982-01-01,9999-01-01,Kentucky Geological Survey/Univ. of Kentucky,https://doi.org/10.7914/SN/KY,1112
+90,N4,Central and Eastern US Network,permanent,2013-01-01,9999-01-01,Albuquerque Seismological Laboratory/USGS (ASL),https://doi.org/10.7914/SN/N4,1113
+91,NW,Northwestern University Seismic Network,permanent,2011-01-01,9999-01-01,Northwestern University,,1
+92,O2,Oklahoma Consolidated Temporary Seismic Networks,permanent,2018-01-01,9999-01-01,Oklahoma Geological Survey (OGS),https://doi.org/10.7914/SN/O2,1114
+93,OH,Ohio Seismic Network,permanent,1999-01-01,9999-01-01,Ohio Geological Survey,https://doi.org/10.7914/SN/OH,1115
+94,TX,Texas Seismological Network,permanent,2016-01-01,9999-01-01,"Bureau of Economic Geology, The University of Texas at Austin (BEG UTEXAS)",https://doi.org/10.7914/SN/TX,1116
+95,7A,Mid-Atlantic Geophysical Integrative Collaboration,temporary,2013-01-01,2016-12-31,Yale University,https://doi.org/10.7914/SN/7A_2013,1117
+96,7D,Lake-induced earthquakes in Lake Erie,temporary,2018-01-01,2021-12-31,University of Michigan,https://doi.org/10.7914/SN/7D_2018,1118
+97,MU,Miami University Seismic Network,permanent,2005-01-01,9999-01-01,"Miami University (Ohio, USA)",,1
+98,4P,Carnegie Washington Backyard Network,temporary,2020-01-01,2021-12-31,Carnegie Institution for Science (CIS),https://doi.org/10.7914/SN/4P_2020,1119
+99,4T,Texas Seismological Network,temporary,2018-01-01,2024-12-31,"Bureau of Economic Geology, The University of Texas at Austin (BEG UTEXAS)",https://doi.org/10.7914/SN/4T_2018,1120
+100,AE,Arizona Broadband Seismic Network,permanent,2007-01-01,9999-01-01,Arizona Geological Survey,https://doi.org/10.7914/SN/AE,1121
+101,C0,Colorado Geological Survey Seismic Network,permanent,2016-01-01,9999-01-01,Colorado Geological Survey (CGS),https://doi.org/10.7914/SN/C0,1122
+102,MX,Mexican National Seismic Network,permanent,1970-01-01,9999-01-01,"Universidad Nacional Autónoma de México (UNAM), Mexico City, D.F.",https://doi.org/10.21766/SSNMX/SN/MX,1123
+103,5H,Central Virginia and South Carolina seismic monitoring experiment,temporary,2017-01-01,2019-12-31,Virginia Polytechnic Institute and State University (VPI&SU or Virginia Tech),https://doi.org/10.7914/SN/5H_2017,1124
+104,XP,Seismic Experiment for Imaging Structure beneath Connecticut,temporary,2015-01-01,2019-12-31,Yale University,https://doi.org/10.7914/SN/XP_2015,1125
+105,5P,Structural health monitoring of rock arches and towers,temporary,2013-01-01,2033-12-31,University of Utah,https://doi.org/10.7914/SN/5P_2013,1126
+106,XU,USGS NEHRP Proposal 2016-0180 - Greeley,temporary,2016-01-01,2029-12-31,University of Colorado,https://doi.org/10.7914/SN/XU_2016,1127
+107,Y9,Rapid response for fairview aftershock in Oklahoma,temporary,2016-01-01,2019-12-31,University of Oklahoma (OU),https://doi.org/10.7914/SN/Y9_2016,1128
+108,YX,Raton Basin UNM Broadband Network,temporary,2016-01-01,2023-12-31,University of New Mexico (UNM),https://doi.org/10.7914/SN/YX_2016,1129
+109,ZP,Seismic Investigation of South Central Oklahoma,temporary,2016-01-01,2019-12-31,University of Oklahoma (OU),https://doi.org/10.7914/SN/ZP_2016,1130
+110,C8,Canadian Seismic Research Network,permanent,2002-01-01,9999-01-01,Natural Resources Canada (NRCAN Canada),,1
+111,ZL,Northern Embayment Lithospheric Experiment,temporary,2011-01-01,2015-12-31,"University of Memphis, CERI",https://doi.org/10.7914/SN/ZL_2011,1131
+112,ZW,North Texas Earthquake Study: Azle and Irving/Dallas,temporary,2013-01-01,2023-12-31,Southern Methodist University (SMU TX),https://doi.org/10.7914/SN/ZW_2013,1132
+113,6E,Wabash Valley Seismic Zone,temporary,2013-01-01,2016-12-31,Southern Illinois University Carbondale (SIUC),https://doi.org/10.7914/SN/6E_2013,1133
+114,SS,SINGLE STATION,permanent,1970-01-01,9999-01-01,Incorporated Research Institutions For Seismology (IRIS),https://doi.org/10.7914/SN/SS,1134
+115,CW,Servicio Sismologico Nacional de Cuba,permanent,1998-01-01,9999-01-01,National Centre for Seismological Research (CENAIS Cuba),https://doi.org/10.7914/SN/CW,1135
+116,CY,Cayman Islands,permanent,2006-01-01,9999-01-01,Cayman Islands Government,,1
+117,XR,Seismicity near the Nemaha fault in northern Oklahoma,temporary,2016-01-01,2017-12-31,Cornell University,https://doi.org/10.7914/SN/XR_2016,1136
+118,9A,East Texas Earthquake Monitoring,temporary,2013-01-01,2013-12-31,Weston Geophysical Corp,https://doi.org/10.7914/SN/9A_2013,1137
+119,Y6,QM-III-UK,temporary,2013-01-01,2015-12-31,Imperial College London (Imperial UK),,1
+120,XB,Sweetwater Array,temporary,2014-01-01,2014-12-31,IRIS PASSCAL Instrument Center @ New Mexico Tech,https://doi.org/10.7914/SN/XB_2014,1138
+121,3E,Exploring Seismic Velocity of Sediments in the Mississippi Embayment,temporary,2010-01-01,2011-12-31,"University of Memphis, CERI",	https://doi.org/10.7914/SN/3E_2010,1139
+122,X4,"Texas Gulf Coastal Plain, USA",temporary,2010-01-01,2014-12-31,"Baylor University Texas, Tech University",https://doi.org/10.7914/SN/X4_2010,1140
+123,WY,Yellowstone National Park Seismograph Network,permanent,1983-01-01,9999-01-01,University of Utah,https://doi.org/10.7914/SN/WY,1141
+124,4O,NULL,permanent,2019-01-01,9999-01-01,NULL,NULL,1
+125,A,Generic Asian Strong Motion Network,permanent,1970-01-01,9999-01-01,,,1
+126,AK,Alaska Geophysical Network,permanent,1987-01-01,9999-01-01,"Alaska Earthquake Center, Univ. of Alaska Fairbanks (AEC), United States of America",https://doi.org/10.7914/SN/AK,1498
+127,CB,"China National Seismic Network, Data Management Centre of China National Seismic Network at Institute of Geophysics, CEA (SeisDmc)",permanent,2000-01-01,9999-01-01,"Institute of Geophysics China Earthquake Administration (IGPCEA), China",https://doi.org/10.7914/SN/CB,1497
+128,E,Rete ENA,permanent,1972-01-01,9999-01-01,"Agenzia Nazionale per le Nuove Technolgie (ENEA), Italy",,1
+129,ESCIG,El Salvador Geotechnical Investigation Center Strong Motion Network,permanent,1969-01-01,9999-01-01,El Salvador Geotechnical Investigation Center (ESCIGSMN),,1
+130,EU,Generic European Strong Motion Network,permanent,1970-01-01,9999-01-01,,,1
+131,GR,German Regional Seismic Network (GR),permanent,1976-01-01,9999-01-01,"Federal Institute for Geosciences and Natural Resources (BGR), Germany",https://doi.org/10.25928/mbx6-hr74,1499
+132,HI,ITSAK Strong Motion Network,permanent,1981-01-01,9999-01-01,"Institute of Engineering Seimology Earthquake Engineering (ITSAK), Greece",https://doi.org/10.7914/SN/HI,1496
+133,HL,National Observatory of Athens Seismic Network,permanent,1975-01-01,9999-01-01,"National Observatory of Athens, Institute of Geodynamics, Athens, Greece",https://doi.org/10.7914/SN/HL,1495
+134,I1,Iranian Strong Motion Network (BHRC),permanent,1973-01-01,9999-01-01,"Road, Housing & Urban Development Research Center (BHRC), Iran",https://doi.org/10.7914/SN/I1,1494
+135,IT,Italian Strong Motion Network (RAN),permanent,1972-01-01,9999-01-01,"Presidency of Counsil of Ministers - Civil Protection Department (PCM - DPC), Italy",https://doi.org/10.7914/SN/IT,1493
+136,IV,Italian National Seismic Network (INSN),permanent,1988-01-01,9999-01-01,"Istituto Nazionale di Geofisica e Vulcanologia (INGV), Italy",https://doi.org/10.13127/SD/X0FXnH7QfY,1501
+137,KIKNET,Kiban Kyoshin Network,permanent,1996-05-01,9999-01-01,"National Research Institute for Earth Science and Disaster Resilience (NIED), Japan",https://www.doi.org/10.17598/NIED.0004,1525
+138,KNET,Kyoshin Network,permanent,1966-05-01,9999-01-01,"National Research Institute for Earth Science and Disaster Resilience (NIED), Japan",https://www.doi.org/10.17598/NIED.0004,1525
+139,KO,Kandilli Observatory And Earthquake Research Institute (KOERI),permanent,1971-01-01,9999-01-01,"Kandilli Observatory And Earthquake Research Institute, Boğaziçi University (KOERI), Türkiye",https://doi.org/10.7914/SN/KO,1492
+140,NZ,New Zealand National Seismograph Network,permanent,1988-01-01,9999-01-01,"Institute of Geological & Nuclear Sciences Ltd (GNS), New Zealand",https://doi.org/10.21420/G19Y-9D40,1500
+141,RF,Friuli Venezia Giulia Accelerometric Network (RF),permanent,1993-01-01,9999-01-01,"University of Trieste, Italy",https://doi.org/10.7914/SN/RF,1491
+142,SL,Seismic Network of the Republic of Slovenia (SNRS),permanent,1990-01-01,9999-01-01,"Slovenian Environment Agency (ARSO), Slovenia",https://doi.org/10.7914/SN/SL,1490
+143,SMART1,Strong Motion Array in Taiwan 1,temporary,1980-09-01,1990-12-31,"Institute of Earth Sciences, Academia Sinica, Taiwan (IESAS), Taiwan",,1
+144,TK,Turkish National Strong Motion Network (TNSMN),permanent,1973-01-01,9999-01-01,"Disaster and Emergency Management Authority (AFAD), Türkiye",https://doi.org/10.7914/SN/TK,1489
+145,TW,Broadband Array in Taiwan for Seismology,permanent,1996-01-01,9999-01-01,"Institute of Earth Sciences, Academia Sinica, Taiwan (IESAS), Taiwan",https://doi.org/10.7914/SN/TW,1488
+146,JP,Japan Meteorological Agency Seismic Network,permanent,1994-01-01,9999-01-01,"Japan Meteorological Agency (JMA), Japan",,1
+147,GO,National Seismic Network of Georgia,permanent,1988-01-01,9999-01-01,"Ilia State University- Seismic Monitoring Centre of Georgia, Georgia",,1
+148,CC,Cascade Chain Volvano Monitoring,permanent,2001-01-01,9999-01-01,"Cascades Volcano Observatory (CVO), United States of America",https://doi.org/10.7914/SN/CC,1539
+149,IE,INL Seismic Monitoring Program,permanent,1972-01-01,9999-01-01,"Idaho National Laboratory (INL), United States of America",https://doi.org/10.7914/SN/IE,1540
+150,MB,Montana Regional Seismic Network (MRSN),permanent,1982-01-01,9999-01-01,"Montana Bureau of Mines and Geology/Montana Tech (MBMG, MT), United States of America",https://doi.org/10.7914/SN/MB,1541
+151,RV,Regional Alberta Observatory for Eathquake Studies Network (RAVEN),permanent,2013-01-01,9999-01-01,"Alberta Geological Survey / Alberta Energy Regulator (AGS / AER), Canada",https://doi.org/10.7914/SN/RV,1542
+152,TD,TransAlta Monitoring Network,permanent,2013-01-01,9999-01-01,"TransAlta Corporation, Canada",,1
+153,UM,University of Montana Seismic Network,permanent,2017-01-01,9999-01-01,"University of Montana, United States of America",https://doi.org/10.7914/SN/UM,1543
+154,X7,Wallowa Uplift & Origin of the Columbia River Basalts (Wallowa 2),temporary,2016-01-01,2018-12-31,"University of Oregon, United States of America",https://doi.org/10.7914/SN/X7_2016,1544
+155,1A,Seismic monitoring of post-fire debris flows in northern Arizona (Seismic Monitoring of Debris Flows),temporary,2019-01-01,2022-12-31,"Northern Arizona University (NAU), United States of America",https://doi.org/10.7914/SN/1A_2019,1545
+156,4E,MARS/Testing of cabled broadband OBS using MARS test facility (MARS),temporary,2010-01-01,2011-12-31,"University of California, San Diego (UCSD), United States of America",https://doi.org/10.7914/SN/4E_2010,1546
+157,7Q,RAPID: Capturing aftershock sequence of 2019 Mw 6.4 Ridgecrest and 7.1 Ridgecrest earthquakes (RAPID Ridgecrest),temporary,2019-01-01,2020-12-31,"University of California, Riverside (UCR), United States of America",https://doi.org/10.7914/SN/7Q_2019,1547
+158,AR,Northern Arizona Network,permanent,2000-01-01,9999-01-01,"Northern Arizona University (NAU), United States of America",,1
+159,BC,Red Sísmica del Noroeste de México (RESNOM),permanent,1980-01-01,9999-01-01,"Centro de Investigación Científica y de Educación Superior de Ensenada (CICESE), Mexico",https://doi.org/10.7914/SN/BC,1548
+160,PY,Pinon Flats Observatory Array (PFO Array),permanent,2014-01-01,9999-01-01,"University of California, San Diego (UCSD), United States of America",https://doi.org/10.7914/SN/PY,1549
+161,XD,Passive seismic study of a magma-dominated rift: the Salton Trough (Salton Trough BB/Stanford),temporary,2011-01-01,2013-12-31,"Stanford University, United States of America",https://doi.org/10.7914/SN/XD_2011,1550
+162,YB,"Deep Fault Structure Beneath the Mojave from a High Density, Passive Seismic Profile (Mojave Experiment)",temporary,2018-01-01,2021-12-31,"University of Texas at Austin, United States of America",https://doi.org/10.7914/SN/YB_2018,1551
+163,YX,Flexarray 3D Passive Seismic Imaging of Core-Complex Extension in the Ruby Range Nevada (NE-NV BB/Stanford),temporary,2010-01-01,2012-12-31,"Stanford University, United States of America",https://doi.org/10.7914/SN/YX_2010,1552
+164,HP,"University of Patras, Seismological Laboratory (PSLNET)",permanent,2000-01-01,9999-01-01,"University of Patras, Greece",https://doi.org/10.7914/SN/HP,1578
+165,CQ,Cyprus Broadband Seismological Network (CQ),permanent,2013-01-01,9999-01-01,"Geological Survey Department Cyprus, Cyprus",https://doi.org/10.7914/SN/CQ,1599
+166,GE,GEOFON,permanent,1991-01-01,9999-01-01,"GEOFON Program (GFZ-Potsdam, Germany), Germany",https://doi.org/10.14470/TR560404,1600
+167,TU,Turkish National Seismic Network (TNSN),permanent,1990-01-01,9999-01-01,"Disaster and Emergency Management Authority (AFAD), Türkiye",https://doi.org/10.7914/SN/TU,1601
+168,CL,Corinth Riff Laboratory (CRLNET),permanent,2000-01-01,9999-01-01,"Institut de Sciences de l'Univers (CNRS-INSU), France",https://doi.org/10.15778/RESIF.CL,1605
+169,HA,"Hellenic Seismological Network, University of Athens, Seismological Laboratory (HA)",permanent,2008-01-01,9999-01-01,"University of Athens, Greece",https://doi.org/10.7914/SN/HA,1606
+170,HC,Seismological Network of Crete (HC),permanent,2006-01-01,9999-01-01,"Technological Educational Institute of Crete, Greece",https://doi.org/10.7914/SN/HC,1607
+171,HT,Aristotle University of Thessaloniki Seismological Network,permanent,1981-01-01,9999-01-01,"Aristotle University of Thessaloniki, Greece",https://doi.org/10.7914/SN/HT,1608
+172,TB,MRC Earth and Marine Sciences Network (MRCNET),permanent,2016-01-01,9999-01-01,"TÜBITAK Marmara Research Center (MRC Turkey), Türkiye",https://doi.org/10.7914/SN/TB,1609
+173,BA,UniBAS,permanent,2005-01-01,9999-01-01,"Universita della Basilicata, Italy",,1
+174,CH,Switzerland Seismological Network,permanent,1986-01-01,9999-01-01,"Swiss Seismological Service, Switzerland",https://doi.org/10.12686/sed/networks/ch,1610
+175,FR,RESIF and other broad-band and accelerometric permanent networks in metropolitan France (RESIF),permanent,1962-01-01,9999-01-01,"Reseau sismologique et géodésique français (RESIF), France",https://doi.org/10.15778/RESIF.FR,1611
+176,GU,Regional Seismic Network of North Western Italy (RSNI),permanent,1967-01-01,9999-01-01,"University of Genoa (UniGe), Italy",https://doi.org/10.7914/SN/GU,1612
+177,MN,Mediterranean Very Broadband Seismographic Network (MedNet),permanent,1988-01-01,9999-01-01,"Istituto Nazionale di Geofisica e Vulcanologia (INGV), Italy",https://doi.org/10.13127/SD/fBBBtDtd6q,1613
+178,NI,North-East Italy Broadband Network (NI),permanent,2002-01-01,9999-01-01,"Istituto Nazionale di Oceanografia e di Geofisica Sperimentale, University of Trieste (OGS & UniTS), Italy",https://doi.org/10.7914/SN/NI,1614
+179,RA,Réseau Accélérométrique Permanent (French Accelerometrique Network) (RAP),permanent,1995-01-01,9999-01-01,"Reseau sismologique et géodésique français (RESIF), France",https://doi.org/10.15778/RESIF.RA,1615
+180,TV,INGV experiments network,permanent,2008-01-01,9999-01-01,"Istituto Nazionale di Geofisica e Vulcanologia (INGV), Italy",,1
+181,G,GEOSCOPE - French Global Network of Seismological Broadband Stations (GEOSCOPE),permanent,1982-01-01,9999-01-01,"cole et Observatoire des Sciences de la Terre (EOST), France;Institut de Physique du Globe de Paris (IPGP), France;Observatoire Geoscope, France ", https://doi.org/10.18715/GEOSCOPE.G,1616
+182,4A,SP Crater Network,temporary,2016-01-01,2019-12-31,"Northern Arizona University (NAU), United States of America",https://doi.org/10.7914/SN/4A_2016,1617
+183,X2,Sunset Seismic Experiment (SSE),temporary,2013-01-01,2014-12-31,"Carnegie Institute of Washington / Science (DTM CIW), United States of America",,1
+184,XE,Sierra Nevada EarthScope Project (SNEP),temporary,2005-01-01,2007-12-31,EarthScope Transportable Array,https://doi.org/10.7914/SN/XE_2005,1652
+185,XQ,Seismic and Geodetic Investigations of Mendocino Triple Junction Dynamics (FAME),temporary,2007-01-01,2009-12-31,"University of Oregon, United States of America",https://doi.org/10.7914/SN/XQ_2007,1653
+186,YW,Resolving structural control of episodic tremor and slip along the length of Cascadia (FACES),temporary,2007-01-01,2010-12-31,"UC Berkeley, United States of America",https://doi.org/10.7914/SN/YW_2007,1654
+187,XC,Collaborative Research: Understanding the causes of continental intraplate tectonomagmatism: A case study in the Pacific Northwest (HLP),temporary,2006-01-01,2010-12-31,"Arizona State University, United States of America",https://doi.org/10.7914/SN/XC_2006,1655
+188,XJ,"Wells, Nevada Aftershock Recording (RAMP NV)",temporary,2008-01-01,2008-12-31,"University of Nevada Reno (UNR), United States of America",https://doi.org/10.7914/SN/XJ_2008,1656
+189,WW,Idaho Seismic Network,permanent,2022-01-01,9999-01-01,"Idaho Geological Survey (IGS), United States of America",https://doi.org/10.7914/SN/WW,1657
+190,XA,"Central Oregon Locked Zone Array, Monitoring seismicity associated with a possible asperity on the Cascadia megathrust (COLZA)",temporary,2008-01-01,2009-12-31,"Oregon State University (OSU), United States of America",https://doi.org/10.7914/SN/XA_2008,1658
+191,YZ,Crater Lake 2008 (CL2008),temporary,2008-01-01,2008-12-31,"Carnegie Institute of Washington / Science (DTM CIW), United States of America",https://doi.org/10.7914/SN/YZ_2008,1659
+192,2F,Crust and lithosphere Investigation of the Easternmost expression of the Laramide Orogeny - Pilot Experiment (CIELO - Pilot),temporary,2017-01-01,2020-12-31,"UC Riverside, United States of America",https://doi.org/10.7914/SN/2F_2017,1660
+193,3L,Testing of the effectiveness of incorporating seismic data in seismic hazard assessment within a traditional field course (Montana Field/Indiana),temporary,2010-01-01,2023-12-31,University of Indiana,https://doi.org/10.7914/SN/3L_2010,1661
+194,NV,NEPTUNE,permanent,2009-01-01,9999-01-01,"Ocean Networks Canada (ONC), Canada",https://doi.org/10.7914/SN/NV,1662
+195,X4,Monitoring Active Faults for Tectonic Mapping Efforts in Washington State,temporary,2016-01-01,9999-01-01,,https://doi.org/10.7914/SN/X4_2016,1663
+196,XP,"Aftershock deployment for Stanley, ID earthquake 2020 (Idaho_Eq_2020)",temporary,2020-01-01,2021-12-31,"Boise State University & Idaho Geological Survey (IGS), United States of America",https://doi.org/10.7914/SN/XP_2020,1664
+197,RC,BYU-Idaho Network (BYUI),permament,2001-01-01,2050-12-31,"Brigham Young Univ-Idaho (BYU Idaho), United States of America",https://doi.org/10.7914/SN/RC,1665
+198,HW,Hanford Washington Seismic Network,permanent,1980-01-01,9999-01-01,"Pacific Northwest National Laboratory (PNL), United States of America",,1
+199,XT,"Deformation and Magmatic Modification of a Steep Continental Margin, Western ID-Eastern OR (Idaho-Oregon Passive Seismic Project)",temporary,2011-01-01,2013-12-31,"University of Florida, United States of America",https://doi.org/10.7914/SN/XT_2011,1666
+200,XD,Collaborative Research: Illuminating the architecture of the greater Mount St. Helens magmatic systems from slab to surface (Mount St Helens aka iMUSH),temporary,2014-01-01,2016-12-31,"University of Washington, United States of America",https://doi.org/10.7914/SN/XD_2014,1667
+201,AC,Albanian Seismological Network (AC),permanent,2002-01-01,9999-01-01,"Institute of GeoSciences, Polytechnic University of Tirana (IGEO PUT), Albania",https://doi.org/10.7914/SN/AC,1668
+202,CR,Croatian Seismograph Network (CSN),permanent,2001-01-01,9999-01-01,"University of Zagreb, Croatia",https://doi.org/10.7914/SN/CR,1669
+203,ME,Montenegrin Seismic Network (ME),permanent,1982-01-01,9999-01-01,"Sector for Seismology, Institute of Hydrometeorology and Seismology of Montenegro (IHMS), Montenegro",https://doi.org/10.7914/SN/ME,1670
+204,OT,OTRIONS (OTRIONS),permanent,2013-01-01,9999-01-01,"University of Bari ""Aldo Moro"" (UNIBA), Italy",https://doi.org/10.7914/SN/OT,1671
+205,YZ,East Pollino Experiment,temporary,2017-01-01,2021-12-31,"Deutsches GeoForschungsZentrum GFZ (GFZ Potsdam), Germany",https://doi.org/10.14470/LM582526,1672
+206,YU,Cornell University Earth Source Heat seismic network (Cornell_ESH (2019-2024)),temporary,2019-01-01,2024-12-31,"Cornell University, United States of America",https://doi.org/10.7914/SN/YU_2019,1673
+207,3A,"Centro di microzonazione sismica Network, 2016 Central Italy seismic sequence (CentroMZ)",temporary,2016-01-01,2016-12-31,"INGV / IDPA-CNR / IMAA-CNR / ENEA, Italy",https://doi.org/10.13127/sd/ku7xm12yy9,1683
+208,3H,Norcia basin (Italy) temporary network,temporary,2009-01-01,2009-12-31,"GEOFON Program (GFZ-Potsdam, Germany), Germany",https://doi.org/10.14470/8U7554472182,1684
+209,4A,Emersito Seismic Network for Site Effect Studies in L'Aquila town (Central Italy) (ESSEA),temporary,2009-01-01,2009-12-31,"Istituto Nazionale di Geofisica e Vulcanologia (INGV), Italy",https://doi.org/10.7914/SN/4A_2009,1685
+210,7F,Snow Avalanche Seismic Monitoring around Sibilla Mount (Central Italy) (Snowbilla),temporary,2021-01-01,2023-12-31,"National Institute of Geophysics and Volcanology (INGV), Italy",https://doi.org/10.13127/sd/fcjdr8key3,1686
+211,IX,Irpinia Seismic Network (ISNet),permanent,2005-01-01,9999-01-01,,,1
+212,SI,Province Südtirol,permanent,2006-01-01,9999-01-01,"ZAMG - Central Institute for Meteorology and Geodynamics, Austria",,1
+213,XO,Seismic Network for Site Effect Studies in Amatrice Area (Central Italy) (SESAA),temporary,2016-01-01,2017-12-31,"Istituto Nazionale di Geofisica e Vulcanologia (INGV), Italy",https://doi.org/10.13127/sd/7txegdo5x8,1687
+214,YP,CIFALPS,temporary,2012-01-01,2013-12-31,"Institut des Sciences de la Terre, France",https://doi.org/10.15778/RESIF.YP2012,1688
+215,ZM,Seismic Emergency for Ischia by Sismiko (SEISk),temporary,2017-01-01,2021-12-31,"Istituto Nazionale di Geofisica e Vulcanologia (INGV), Italy",https://doi.org/10.13127/sd/u0j8hsaevf,1689
