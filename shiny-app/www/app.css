@@ -1,0 +1,27 @@
+.app-page {
+  padding-top: 1rem;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.card-header {
+  font-weight: 650;
+}
+
+.bslib-value-box .value {
+  font-variant-numeric: tabular-nums;
+}
+
+.map-page .card-body {
+  padding: 0;
+}
+
+.map-page .leaflet-container {
+  min-height: 620px;
+}
+
+.text-muted {
+  color: #64748b !important;
+}

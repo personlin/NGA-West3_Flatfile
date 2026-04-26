@@ -57,6 +57,22 @@ output/rds/
 
 Usage notes are in `docs/rds_usage.md`.
 
+## Shiny App Plan
+
+A proposed Shiny dashboard plan is documented in `docs/shiny_app_development_plan.md`. The plan uses SQLite as the canonical query backend, with small RDS caches for maps/statistics and lazy-loaded RDS files for R-native exploratory workflows.
+
+## Shiny App
+
+An initial Shiny dashboard implementation lives in `shiny-app/`.
+
+Run it from the repository root:
+
+```r
+shiny::runApp("shiny-app")
+```
+
+The app expects the local SQLite and RDS outputs at `output/sqlite/` and `output/rds/`. See `shiny-app/README.md` for optional path overrides and app cache notes.
+
 ## Prepare a Google Drive Release
 
 Generate manifests and an ignored local staging folder:

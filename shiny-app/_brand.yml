@@ -1,0 +1,13 @@
+color:
+  palette:
+    teal: "#246a73"
+    blue: "#2563eb"
+    green: "#2f855a"
+    orange: "#c2410c"
+  primary: teal
+  secondary: "#6b7280"
+typography:
+  fonts:
+    - family: Source Sans 3
+      source: google
+  base: Source Sans 3
