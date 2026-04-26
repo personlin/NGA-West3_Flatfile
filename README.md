@@ -1,8 +1,14 @@
 # NGA-West3 Derived Data Products
 
+[繁體中文 README](README.zh-TW.md)
+
 This repository documents a reproducible workflow for building derived NGA-West3 data products from the 2025-09-19 public flatfiles.
 
 The GitHub repository is intentionally kept small. It stores scripts, documentation, comparison summaries, and release manifests. Large derived files, such as SQLite and RDS outputs, should be published through Google Drive release folders.
+
+## Documentation Sync
+
+This English README and the Traditional Chinese README should be kept in sync. When updating setup steps, file paths, release policies, app instructions, or rebuild commands in one version, update the other version in the same change.
 
 ## Repository Contents
 
