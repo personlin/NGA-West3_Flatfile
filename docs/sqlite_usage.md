@@ -121,10 +121,10 @@ WHERE source_sheet = 'PSA Field Descriptions'
 
 ## 重建資料庫
 
-使用 bundled Python environment：
+使用 Python 3 environment；需要 `openpyxl`：
 
 ```bash
-/Users/person/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/build_nga_west3_sqlite.py
+python3 scripts/build_nga_west3_sqlite.py
 ```
 
 腳本會覆寫：

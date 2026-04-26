@@ -61,7 +61,7 @@ After uploading files to Drive, optionally fill `google_drive_file_id` and commi
 Run:
 
 ```bash
-/Users/person/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/prepare_google_drive_release.py --stage-data hardlink
+python3 scripts/prepare_google_drive_release.py --stage-data hardlink
 ```
 
 This creates:
@@ -71,4 +71,3 @@ google_drive_release/2025-09-19/
 ```
 
 The script hardlinks large data files where possible, so staging usually does not duplicate disk usage. Upload the release folder through Google Drive for desktop or the Drive web UI.
-

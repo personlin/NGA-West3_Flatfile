@@ -62,13 +62,13 @@ Usage notes are in `docs/rds_usage.md`.
 Generate manifests and an ignored local staging folder:
 
 ```bash
-/Users/person/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/prepare_google_drive_release.py
+python3 scripts/prepare_google_drive_release.py
 ```
 
 To stage hardlinks to the large data files for upload from a single local folder:
 
 ```bash
-/Users/person/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/prepare_google_drive_release.py --stage-data hardlink
+python3 scripts/prepare_google_drive_release.py --stage-data hardlink
 ```
 
 The staging folder is:
@@ -94,12 +94,11 @@ Run the command from the directory that contains the downloaded `sqlite/` and `r
 Build SQLite:
 
 ```bash
-/Users/person/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/build_nga_west3_sqlite.py
+python3 scripts/build_nga_west3_sqlite.py
 ```
 
 Build RDS:
 
 ```bash
-/usr/local/bin/Rscript scripts/build_nga_west3_rds.R
+Rscript scripts/build_nga_west3_rds.R
 ```
-

@@ -150,7 +150,7 @@ psa_long[, period_s := as.numeric(
 ## 重建 RDS
 
 ```bash
-/usr/local/bin/Rscript scripts/build_nga_west3_rds.R
+Rscript scripts/build_nga_west3_rds.R
 ```
 
 腳本會覆寫 `output/rds/` 中的 RDS 與 manifest。
