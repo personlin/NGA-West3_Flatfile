@@ -71,3 +71,25 @@ google_drive_release/2025-09-19/
 ```
 
 The script hardlinks large data files where possible, so staging usually does not duplicate disk usage. Upload the release folder through Google Drive for desktop or the Drive web UI.
+
+## Download From GitHub Checkout
+
+The current Drive release folder is:
+
+```text
+https://drive.google.com/drive/folders/1qXa_GaiXaKVFSx6PQeF3nx_cu7kAYT8Y
+```
+
+After the Drive release manifest contains `google_drive_file_id` values, users can download the SQLite database required by the Shiny app into `output/sqlite/`:
+
+```bash
+python3 scripts/download_nga_west3_release.py
+```
+
+To download the optional RDS products into `output/rds/` too:
+
+```bash
+python3 scripts/download_nga_west3_release.py --include-rds
+```
+
+The downloader verifies SHA-256 checksums from `manifests/nga_west3_20250919_manifest.csv` after each file is downloaded.

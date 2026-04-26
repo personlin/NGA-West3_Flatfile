@@ -25,3 +25,53 @@
 .text-muted {
   color: #64748b !important;
 }
+
+.about-doc-links {
+  display: grid;
+  gap: 0.35rem;
+  justify-items: start;
+}
+
+.about-doc-link {
+  padding: 0;
+  text-align: left;
+}
+
+.about-doc-modal {
+  max-height: 70vh;
+  overflow: auto;
+}
+
+.markdown-view {
+  line-height: 1.55;
+}
+
+.markdown-view h1 {
+  font-size: 1.55rem;
+}
+
+.markdown-view h2 {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.markdown-view h3 {
+  font-size: 1.05rem;
+  margin-top: 1.25rem;
+}
+
+.markdown-view pre {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 0.75rem;
+  white-space: pre-wrap;
+}
+
+.markdown-view code {
+  color: #0f172a;
+}
+
+.markdown-view-plain {
+  white-space: pre-wrap;
+}

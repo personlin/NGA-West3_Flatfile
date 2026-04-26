@@ -71,6 +71,12 @@ Shiny dashboard 的提案計劃記錄於 `docs/shiny_app_development_plan.md`。
 
 初版 Shiny dashboard 實作位於 `shiny-app/`。
 
+從 Google Drive release 下載 SQLite database 至 `output/sqlite/`：
+
+```bash
+python3 scripts/download_nga_west3_release.py
+```
+
 請從 repository root 執行：
 
 ```r
@@ -78,6 +84,12 @@ shiny::runApp("shiny-app")
 ```
 
 App 預期本地 SQLite 與 RDS 輸出分別位於 `output/sqlite/` 與 `output/rds/`。可選路徑覆寫與 app cache 說明請見 `shiny-app/README.md`。
+
+若也要下載 Analysis page 使用的 optional RDS products 至 `output/rds/`：
+
+```bash
+python3 scripts/download_nga_west3_release.py --include-rds
+```
 
 ## 準備 Google Drive Release
 

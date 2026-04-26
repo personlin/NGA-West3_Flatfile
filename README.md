@@ -71,6 +71,12 @@ A proposed Shiny dashboard plan is documented in `docs/shiny_app_development_pla
 
 An initial Shiny dashboard implementation lives in `shiny-app/`.
 
+Download the SQLite database from the Google Drive release into `output/sqlite/`:
+
+```bash
+python3 scripts/download_nga_west3_release.py
+```
+
 Run it from the repository root:
 
 ```r
@@ -78,6 +84,12 @@ shiny::runApp("shiny-app")
 ```
 
 The app expects the local SQLite and RDS outputs at `output/sqlite/` and `output/rds/`. See `shiny-app/README.md` for optional path overrides and app cache notes.
+
+To also download optional RDS products for the Analysis page into `output/rds/`:
+
+```bash
+python3 scripts/download_nga_west3_release.py --include-rds
+```
 
 ## Prepare a Google Drive Release
 

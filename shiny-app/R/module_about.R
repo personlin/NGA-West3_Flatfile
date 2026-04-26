@@ -1,3 +1,37 @@
+about_documents <- list(
+  sqlite = list(title = "SQLite usage notes", path = file.path("docs", "sqlite_usage.md")),
+  rds = list(title = "RDS usage notes", path = file.path("docs", "rds_usage.md")),
+  google_drive = list(title = "Google Drive release notes", path = file.path("docs", "google_drive_release.md")),
+  shiny_plan = list(title = "Shiny development plan", path = file.path("docs", "shiny_app_development_plan.md"))
+)
+
+about_document_buttons <- function(ns) {
+  tags$div(
+    class = "about-doc-links",
+    lapply(names(about_documents), function(key) {
+      actionButton(
+        inputId = ns(paste0("view_doc_", key)),
+        label = about_documents[[key]]$title,
+        class = "btn btn-link about-doc-link"
+      )
+    })
+  )
+}
+
+about_markdown_ui <- function(relative_path) {
+  path <- normalizePath(file.path(project_root(), relative_path), mustWork = FALSE)
+  if (!file.exists(path)) {
+    return(tags$p(class = "text-danger", paste("Document not found:", relative_path)))
+  }
+
+  markdown_text <- paste(readLines(path, warn = FALSE, encoding = "UTF-8"), collapse = "\n")
+  if (requireNamespace("commonmark", quietly = TRUE)) {
+    return(tags$div(class = "markdown-view", HTML(commonmark::markdown_html(markdown_text))))
+  }
+
+  tags$pre(class = "markdown-view markdown-view-plain", markdown_text)
+}
+
 about_ui <- function(id) {
   ns <- NS(id)
   page_fluid(
@@ -8,12 +42,7 @@ about_ui <- function(id) {
         card_header("Data Product"),
         tags$p("NGA-West3 derived data products, release date 2025-09-19."),
         tags$p("SQLite is the canonical backend for interactive browsing. RDS files are used for cached map/statistics data and lazy analysis workflows."),
-        tags$ul(
-          tags$li(tags$a(href = "../docs/sqlite_usage.md", "SQLite usage notes")),
-          tags$li(tags$a(href = "../docs/rds_usage.md", "RDS usage notes")),
-          tags$li(tags$a(href = "../docs/google_drive_release.md", "Google Drive release notes")),
-          tags$li(tags$a(href = "../docs/shiny_app_development_plan.md", "Shiny development plan"))
-        )
+        about_document_buttons(ns)
       ),
       card(
         card_header("Local Status"),
@@ -25,6 +54,22 @@ about_ui <- function(id) {
 
 about_server <- function(id) {
   moduleServer(id, function(input, output, session) {
+    lapply(names(about_documents), function(key) {
+      local({
+        document <- about_documents[[key]]
+        input_id <- paste0("view_doc_", key)
+        observeEvent(input[[input_id]], {
+          showModal(modalDialog(
+            title = document$title,
+            size = "l",
+            easyClose = TRUE,
+            footer = modalButton("Close"),
+            tags$div(class = "about-doc-modal", about_markdown_ui(document$path))
+          ))
+        }, ignoreInit = TRUE)
+      })
+    })
+
     output$status <- renderText({
       sqlite_status <- db_health()
       rds_files <- if (dir.exists(rds_dir())) list.files(rds_dir(), pattern = "\\.rds$") else character()
