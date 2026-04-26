@@ -43,6 +43,11 @@ date_range_or_default <- function() {
   as.Date(unlist(rng[1, ]))
 }
 
+safe_date_range <- function(default = as.Date(c("1900-01-01", "2100-01-01"))) {
+  rng <- tryCatch(date_range_or_default(), error = function(e) default)
+  if (length(rng) != 2 || any(is.na(rng))) default else rng
+}
+
 map_filter_choices <- function() {
   list(
     source_class = c("crustal", "subduction", "induced", "undetermined"),
@@ -52,7 +57,7 @@ map_filter_choices <- function() {
     network_code = select_choices("SELECT DISTINCT network_code FROM networks ORDER BY network_code"),
     network_type = select_choices("SELECT DISTINCT network_type FROM networks ORDER BY network_type"),
     magnitude = range_or_default("SELECT min(magnitude), max(magnitude) FROM events", c(0, 10)),
-    date = date_range_or_default()
+    date = safe_date_range()
   )
 }
 

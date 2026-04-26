@@ -1,5 +1,6 @@
 map_ui <- function(id) {
   ns <- NS(id)
+  initial_date_range <- safe_date_range()
   page_sidebar(
     class = "app-page map-page",
     sidebar = sidebar(
@@ -12,7 +13,14 @@ map_ui <- function(id) {
       selectizeInput(ns("network_code"), "Network code", choices = NULL, multiple = TRUE),
       selectizeInput(ns("network_type"), "Network type", choices = NULL, multiple = TRUE),
       sliderInput(ns("magnitude"), "Magnitude", min = 0, max = 10, value = c(0, 10), step = 0.1),
-      dateRangeInput(ns("date_range"), "Date range"),
+      dateRangeInput(
+        ns("date_range"),
+        "Date range",
+        start = initial_date_range[1],
+        end = initial_date_range[2],
+        min = initial_date_range[1],
+        max = initial_date_range[2]
+      ),
       numericInput(ns("motion_min"), "Minimum motions", value = 0, min = 0, step = 10),
       checkboxInput(ns("show_all"), "Show all matching points", value = FALSE)
     ),
