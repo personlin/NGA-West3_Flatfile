@@ -4,6 +4,10 @@
 
 本 repository 記錄一套可重現的工作流程，用來從 2025-09-19 公開發布的 NGA-West3 flatfiles 建置衍生資料產品。
 
+## 資料來源
+
+本工作流程使用的 NGA-West3 flatfiles 屬於次世代衰減關係-西部第三版（Next Generation Attenuation-West3，NGA-West3）計畫的一部分。相關資料資源記載於 UCLA GIRS 技術報告第 2025-07 號（Stewart, 2025），並可透過太平洋地震工程研究中心（PEER）的 Ground Motion Database 取得。詳見文末[參考文獻](#參考文獻)。
+
 GitHub repository 會刻意維持精簡，只保存腳本、文件、比較摘要與 release manifests。大型衍生檔案，例如 SQLite 與 RDS 輸出，應透過 Google Drive release folders 發布。
 
 ## 文件同步
@@ -136,3 +140,9 @@ python3 scripts/build_nga_west3_sqlite.py
 ```bash
 Rscript scripts/build_nga_west3_rds.R
 ```
+
+## 參考文獻
+
+Stewart, J. P. (2025). *Data Resources for NGA-West3 Project*. UCLA GIRS Technical Report No. 2025-07. University of California, Los Angeles. https://www.risksciences.ucla.edu/girs-reports/2025/07
+
+Pacific Earthquake Engineering Research Center (PEER). (n.d.). *Ground Motion Database*. https://gmdatabase.org/

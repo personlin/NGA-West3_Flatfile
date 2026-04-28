@@ -4,6 +4,10 @@
 
 This repository documents a reproducible workflow for building derived NGA-West3 data products from the 2025-09-19 public flatfiles.
 
+## Data Source
+
+The NGA-West3 flatfiles used in this workflow are part of the Next Generation Attenuation-West3 (NGA-West3) project. The data resources are documented in UCLA GIRS Technical Report No. 2025-07 (Stewart, 2025) and are accessible through the Pacific Earthquake Engineering Research Center (PEER) Ground Motion Database. See [References](#references) below.
+
 The GitHub repository is intentionally kept small. It stores scripts, documentation, comparison summaries, and release manifests. Large derived files, such as SQLite and RDS outputs, should be published through Google Drive release folders.
 
 ## Documentation Sync
@@ -136,3 +140,9 @@ Build RDS:
 ```bash
 Rscript scripts/build_nga_west3_rds.R
 ```
+
+## References
+
+Stewart, J. P. (2025). *Data Resources for NGA-West3 Project*. UCLA GIRS Technical Report No. 2025-07. University of California, Los Angeles. https://www.risksciences.ucla.edu/girs-reports/2025/07
+
+Pacific Earthquake Engineering Research Center (PEER). (n.d.). *Ground Motion Database*. https://gmdatabase.org/
