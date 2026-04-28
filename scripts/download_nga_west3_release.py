@@ -51,18 +51,6 @@ def selected_rows(rows: list[dict[str, str]], include_rds: bool) -> list[dict[st
     return selected
 
 
-def parse_confirm_token(html: str) -> str | None:
-    patterns = [
-        r'href="[^"]*[?&]confirm=([^"&]+)[^"]*"',
-        r'confirm=([0-9A-Za-z_\-]+)&',
-        r'"downloadUrl":"[^"]*confirm=([^"&]+)[^"]*"',
-    ]
-    for pattern in patterns:
-        match = re.search(pattern, html)
-        if match:
-            return unquote(match.group(1))
-    return None
-
 
 def filename_from_disposition(header: str | None) -> str | None:
     if not header:
@@ -82,18 +70,18 @@ def request(opener, url: str):
 
 def download_drive_file(file_id: str, destination: Path) -> None:
     opener = build_opener()
-    base = f"https://drive.google.com/uc?export=download&id={quote(file_id)}"
-    response = request(opener, base)
+    # Use the usercontent endpoint with confirm=t to bypass the virus-scan warning
+    # page that Google Drive shows for large files (the old /uc?export=download
+    # confirmation-token flow no longer works reliably).
+    url = f"https://drive.usercontent.google.com/download?id={quote(file_id)}&export=download&authuser=0&confirm=t"
+    response = request(opener, url)
     content_type = response.headers.get("Content-Type", "")
 
     if "text/html" in content_type:
         html = response.read().decode("utf-8", errors="replace")
-        token = parse_confirm_token(html)
-        if not token:
-            if "You need access" in html or "Sign in" in html:
-                raise DownloadError(f"Google Drive file {file_id} is not publicly downloadable.")
-            raise DownloadError(f"Could not find Google Drive download confirmation token for {file_id}.")
-        response = request(opener, f"{base}&confirm={quote(token)}")
+        if "You need access" in html or "Sign in" in html:
+            raise DownloadError(f"Google Drive file {file_id} is not publicly downloadable.")
+        raise DownloadError(f"Unexpected HTML response downloading {file_id}. The file may not be publicly shared.")
 
     destination.parent.mkdir(parents=True, exist_ok=True)
     tmp = destination.with_suffix(destination.suffix + ".part")
