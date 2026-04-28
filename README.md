@@ -17,6 +17,7 @@ This English README and the Traditional Chinese README should be kept in sync. W
 ## Repository Contents
 
 ```text
+install.R
 scripts/
   build_nga_west3_sqlite.py
   build_nga_west3_rds.R
@@ -74,6 +75,12 @@ A proposed Shiny dashboard plan is documented in `docs/shiny_app_development_pla
 ## Shiny App
 
 An initial Shiny dashboard implementation lives in `shiny-app/`.
+
+Install required and optional R packages:
+
+```bash
+Rscript install.R
+```
 
 Download the SQLite database from the Google Drive release into `output/sqlite/`:
 
